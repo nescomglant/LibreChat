@@ -7,7 +7,7 @@ endpoints:
     titleConvo: true
     titleModel: "claude-haiku-4-5"   # economico, veloce, perfetto per i titoli
 
-  custom:
+    custom:
     - name: "OpenRouter"
       apiKey: "${OPENROUTER_API_KEY}"
       baseURL: "https://openrouter.ai/api/v1"
@@ -19,6 +19,7 @@ endpoints:
         ]
         fetch: true
       titleConvo: true
-      titleModel: "claude-haiku-4-5"
+      titleModel: "openrouter/free" # <-- Titoli a costo zero!
       titleMethod: "completion"
       modelDisplayLabel: "OpenRouter"
+
