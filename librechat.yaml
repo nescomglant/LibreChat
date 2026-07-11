@@ -28,5 +28,5 @@ webSearch:
   tavilyApiKey: "${TAVILY_API_KEY}"
   tavilySearchOptions:
     searchDepth: "advanced" # Abilita il Deep Research (legge più fonti a fondo)
-    maxResults: 7           # Numero di siti da analizzare
+    maxResults: 10           # Numero di siti da analizzare
     
