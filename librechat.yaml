@@ -5,7 +5,7 @@ endpoints:
   anthropic:
     apiKey: "${ANTHROPIC_API_KEY}"
     titleConvo: true
-    titleModel: "claude-3-5-haiku-20241022"   # Corretto l'ID del modello Anthropic
+    titleModel: "current_model"   # Corretto l'ID del modello Anthropic
 
   custom:
     - name: "OpenRouter"
