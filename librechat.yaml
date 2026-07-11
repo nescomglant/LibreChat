@@ -22,3 +22,11 @@ endpoints:
       titleModel: "current_model" # <-- Titoli a costo zero!
       titleMethod: "completion"
       modelDisplayLabel: "OpenRouter"
+
+webSearch:
+  searchProvider: "tavily"
+  tavilyApiKey: "${TAVILY_API_KEY}"
+  tavilySearchOptions:
+    searchDepth: "advanced" # Abilita il Deep Research (legge più fonti a fondo)
+    maxResults: 7           # Numero di siti da analizzare
+    
