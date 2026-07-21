@@ -32,7 +32,7 @@ webSearch:
 
 mcpServers:
   toolbox:
-    type: sse
+    type: http
     url: "https://mcp.smithery.run/studioaversadaniele"
     headers:
       Authorization: "Bearer ${SMITHERY_TOOLBOX_API_KEY}"
