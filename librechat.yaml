@@ -31,13 +31,8 @@ webSearch:
     maxResults: 10           # Numero di siti da analizzare
 
 mcpServers:
-  gmail:
-    type: stdio
-    command: npx
-    args:
-      - "-y"
-      - "@modelcontextprotocol/server-gmail"
-    env:
-      GMAIL_CLIENT_ID: "${GMAIL_CLIENT_ID}"
-      GMAIL_CLIENT_SECRET: "${GMAIL_CLIENT_SECRET}"
-      GMAIL_REFRESH_TOKEN: "${GMAIL_REFRESH_TOKEN}"
+  toolbox:
+    type: sse
+    url: "https://mcp.smithery.run/studioaversadaniele"
+    headers:
+      Authorization: "Bearer ${SMITHERY_TOOLBOX_API_KEY}"
